@@ -63,12 +63,18 @@
                 <div class="home__content">
                     <h1 class="home__title">
                         I Am <span class="home__name">Vysing</span><br>
-                        UI/UX Designer<br>
-                        & Developer
+                        <!-- UI/UX Designer<br> -->
+                        Web Developer
                     </h1>
                     <p class="home__description">
-                        Laculis eget elementum felis pellentesque tellus tellus tincidunt
-                        tortor natoque. Cras amet ornare egestas.
+                      <!-- A product-focused fullstack
+                      developer based in Cambodia. Previously
+                      Technical Lead at Inviter.
+                      I specialise in helping products grow
+                      based on user metrics. -->
+                      I'm a software engineer specializing in building (and occasionally
+                      designing) exceptional digital experiences. Currently, I'm focused on
+                      building complex applications with modern technologies.
                     </p>
                     <a href="#contact" class="btn btn--primary">
                         <i class="ri-mail-line"></i>
@@ -95,7 +101,7 @@
                         </ul>
                     </div>
                 </div>
-                <img src="./assets/img/homevysing_sun.png" alt="Natasha Smith" class="home__img">
+                <img src="./assets/img/image_sing.png" alt="Natasha Smith" class="home__img">
             </div>
         </section>
 
@@ -532,7 +538,7 @@
                         </div>
                         <div class="contact__info-wrapper">
                             <h3 class="contact__title">Call:</h3>
-                            <p class="contact__description">(+987) 954 578 420</p>
+                            <p class="contact__description">(+855) 15 674 774</p>
                         </div>
                     </div>
 
@@ -542,7 +548,7 @@
                         </div>
                         <div class="contact__info-wrapper">
                             <h3 class="contact__title">Email:</h3>
-                            <p class="contact__description">info@natasha.com</p>
+                            <p class="contact__description">vysingsun@gmail.com</p>
                         </div>
                     </div>
 
@@ -552,7 +558,7 @@
                         </div>
                         <div class="contact__info-wrapper">
                             <h3 class="contact__title">Location:</h3>
-                            <p class="contact__description">23 Avenue California, USA</p>
+                            <p class="contact__description">Toul Kok Phnom Penh, Cambodia</p>
                         </div>
                     </div>
                 </div>
@@ -608,7 +614,7 @@
             </div>
         </div>
         <div class="footer__copyright container">
-            <p>&copy; Copyright 2023 Designed by Luís.</p>
+            <p>&copy; Copyright 2023 Designed by Vysing Sun.</p>
         </div>
     </footer>
     <a href="#" id="scrolltop" class="scrolltop">
