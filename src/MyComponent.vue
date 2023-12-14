@@ -112,10 +112,13 @@
                     <span class="section__subtitle">About Me</span>
                     <h2 class="section__title">I Design and Develop Experiences that
                         make people's live simple.</h2>
-                    <p class="about__description">Viverra nisl nibh dolor nam venenatis turpis ultrices. Vulputate
-                        facilisis urna pulvinar fringilla consequat molestie
-                        vulputate lacus.
-                        Pretium leo et nec fusce. Cursus volutpat sed.</p>
+                    <p class="about__description">Self-independent, reliable and friendly individual who works hard to 
+                            achieve
+                            my goals. Adaptable quickly, and organized well. Interested in 
+                            learning the latest web & 
+                            software technologies quickly. Able to work 
+                            well in teams as well as individually.
+                    </p>
                     <a href="javascript:void(0)" class="btn btn--primary"><i class="ri-article-line"></i>Download CV</a>
                 </div>
                 <img src="./assets/img/about_vysing.png" alt="Natasha Smith" class="about__img">
@@ -258,17 +261,11 @@
                     <h2 class="section__title">What I Provide To My Clients</h2>
 
                     <p class="service__description">
-                        Sit elementum fringilla ipsum accumsan sagittis ullamcorper dolor. Nunc tempor ut amet enim dui.
-                        Congue viverra tortor
-                        integer fames amet odio cursus.
+                      I prioritize clean code, efficient algorithms, and search engine optimization (SEO) best practices to enhance website speed, visibility, and accessibility.
                     </p>
 
                     <p class="service__description">
-                        Rhoncus lacinia turpis sagittis sed ipsum hendrerit nunc non. Leo massa a est ullamcorper at
-                        vulputate. Sit elementum
-                        fringilla ipsum accumsan sagittis ullamcorper dolor. Nunc tempor ut amet enim dui. Congue
-                        viverra tortor integer fames
-                        amet odio cursus.
+                      By choosing me as their web developer, clients can expect a seamless and enjoyable experience, a website that reflects their brand identity, and a strong online presence that attracts and engages their target audience.
                     </p>
 
                     <a href="#" class="btn btn--primary">
@@ -284,7 +281,7 @@
                         <div class="service__info-wrapper">
                             <h3 class="service__info-title">Frontend Development</h3>
                             <p class="service__description">
-                                Nunc nunc facilisis eu non enim adipiscing. Erat nunc dignissim condimentum quis.
+                              I specialize in leveraging frontend frameworks like React, Vue.js to build dynamic web applications
                             </p>
                         </div>
                     </div>
@@ -295,7 +292,7 @@
                         <div class="service__info-wrapper">
                             <h3 class="service__info-title">UI/UX Design</h3>
                             <p class="service__description">
-                                Nunc nunc facilisis eu non enim adipiscing. Erat nunc dignissim condimentum quis.
+                              I prioritize accessibility in UI/UX design, ensuring that I create are usable and enjoyable for all users.
                             </p>
                         </div>
                     </div>
@@ -304,9 +301,9 @@
                             <i class="ri-pen-nib-fill"></i>
                         </div>
                         <div class="service__info-wrapper">
-                            <h3 class="service__info-title">Graphic Design</h3>
+                            <h3 class="service__info-title">Backend Development</h3>
                             <p class="service__description">
-                                Nunc nunc facilisis eu non enim adipiscing. Erat nunc dignissim condimentum quis.
+                              I stay updated with latest backend technologies to enhance efficiency of my development process.
                             </p>
                         </div>
                     </div>
@@ -328,8 +325,7 @@
                         <div class="portfolio__info-wrapper">
                             <h3 class="portfolio__title">Website Design</h3>
                             <p class="portfolio__description">
-                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae
-                                facilis repellendus...
+                                Coming soon...
                             </p>
                         </div>
                     </div>
@@ -345,8 +341,7 @@
                         <div class="portfolio__info-wrapper">
                             <h3 class="portfolio__title">Mobile App UI/UX Design</h3>
                             <p class="portfolio__description">
-                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae
-                                facilis repellendus...
+                              Coming soon...
                             </p>
                         </div>
                     </div>
@@ -362,8 +357,7 @@
                         <div class="portfolio__info-wrapper">
                             <h3 class="portfolio__title">App Re-design</h3>
                             <p class="portfolio__description">
-                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae
-                                facilis repellendus...
+                              Coming soon...
                             </p>
                         </div>
                     </div>
