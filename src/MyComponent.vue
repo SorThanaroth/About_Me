@@ -452,8 +452,7 @@
                     <div class="blog__content">
                         <h3 class="blog__title">10 UI/UX Design trends that made for 2023</h3>
                         <p class="blog__description">
-                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum
-                            nihil quam velit ipsam possimus.
+                          Coming soon...
                         </p>
                         <a href="javascript:void(0)" class="blog__link">
                             Read More
