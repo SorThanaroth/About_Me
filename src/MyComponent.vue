@@ -32,11 +32,11 @@
                             <i class="ri-folders-line nav__icon"></i>
                             Portfolio</a>
                     </li>
-                    <li class="nav__item">
+                    <!-- <li class="nav__item">
                         <a href="#blog" class="nav__link">
                             <i class="ri-message-line nav__icon"></i>
                             Blog</a>
-                    </li>
+                    </li> -->
                     <li class="nav__item">
                         <a href="#contact" class="nav__link">
                             <i class="ri-phone-line nav__icon"></i>
@@ -94,7 +94,7 @@
                                 </a>
                             </li>
                             <li class="social__item">
-                                <a href="javascript:void(0)" class="social__link">
+                                <a href="www.linkedin.com/in/sun-vysing-91793b241" class="social__link">
                                     <i class="ri-dribbble-line"></i>
                                 </a>
                             </li>
@@ -134,7 +134,7 @@
             </div>
             <div class="d-grid skills__wrapper container">
                 <div class="skills__content">
-                    <h3 class="skills__title">UI/UX Design</h3>
+                    <h3 class="skills__title">Frontend Development</h3>
                     <div class="skills__content-wrapper">
                         <div class="skills__card">
                             <div class="skills__img-wrapper">
@@ -144,75 +144,75 @@
                         </div>
                         <div class="skills__card">
                             <div class="skills__img-wrapper">
-                                <img src="./assets/img/adobexd-logo.svg" alt="Adobe XD Logo" class="skills__img">
-                            </div>
-                            <h3 class="skills__name">Adobe XD</h3>
-                        </div>
-                        <div class="skills__card">
-                            <div class="skills__img-wrapper">
-                                <img src="./assets/img/adobe-illustrator-logo.svg" alt="Illustrator Logo"
-                                    class="skills__img">
-                            </div>
-                            <h3 class="skills__name">Illustrator</h3>
-                        </div>
-                        <div class="skills__card">
-                            <div class="skills__img-wrapper">
-                                <img src="./assets/img/photoshop-logo.svg" alt="Photoshop Logo" class="skills__img">
-                            </div>
-                            <h3 class="skills__name">Photoshop</h3>
-                        </div>
-                        <div class="skills__card">
-                            <div class="skills__img-wrapper">
-                                <img src="./assets/img/sketch-logo.svg" alt="Sketch Logo" class="skills__img">
-                            </div>
-                            <h3 class="skills__name">Sketch</h3>
-                        </div>
-                        <div class="skills__card">
-                            <div class="skills__img-wrapper">
-                                <img src="./assets/img/invision-logo.jpg" alt="InVision Logo" class="skills__img">
-                            </div>
-                            <h3 class="skills__name">InVision</h3>
-                        </div>
-                    </div>
-                </div>
-                <div class="skills__content">
-                    <h3 class="skills__title">Web Development</h3>
-                    <div class="skills__content-wrapper">
-                        <div class="skills__card">
-                            <div class="skills__img-wrapper">
-                                <img src="./assets/img/html-logo.svg" alt="HTML Logo" class="skills__img">
+                                <img src="./assets/img/html-logo.svg" alt="Adobe XD Logo" class="skills__img">
                             </div>
                             <h3 class="skills__name">HTML</h3>
                         </div>
                         <div class="skills__card">
                             <div class="skills__img-wrapper">
-                                <img src="./assets/img/css-logo.svg" alt="CSS Logo" class="skills__img">
+                                <img src="./assets/img/css-logo.svg" alt="Illustrator Logo"
+                                    class="skills__img">
                             </div>
                             <h3 class="skills__name">CSS</h3>
                         </div>
                         <div class="skills__card">
                             <div class="skills__img-wrapper">
-                                <img src="./assets/img/javascript-logo.svg" alt="JavaScript Logo" class="skills__img">
+                                <img src="./assets/img/tailwind.png" alt="Photoshop Logo" class="skills__img">
+                            </div>
+                            <h3 class="skills__name">TailwindCSS</h3>
+                        </div>
+                        <div class="skills__card">
+                            <div class="skills__img-wrapper">
+                                <img src="./assets/img/javascript-logo.svg" alt="Sketch Logo" class="skills__img">
                             </div>
                             <h3 class="skills__name">JavaScript</h3>
                         </div>
                         <div class="skills__card">
                             <div class="skills__img-wrapper">
-                                <img src="./assets/img/nodejs-logo.svg" alt="Node.Js Logo" class="skills__img">
+                                <img src="./assets/img/vue-logo.svg" alt="InVision Logo" class="skills__img">
+                            </div>
+                            <h3 class="skills__name">Vue.js</h3>
+                        </div>
+                    </div>
+                </div>
+                <div class="skills__content">
+                    <h3 class="skills__title">Backend Development</h3>
+                    <div class="skills__content-wrapper">
+                        <div class="skills__card">
+                            <div class="skills__img-wrapper">
+                                <img src="./assets/img/nodejs-logo.svg" alt="HTML Logo" class="skills__img">
                             </div>
                             <h3 class="skills__name">Node.Js</h3>
                         </div>
                         <div class="skills__card">
                             <div class="skills__img-wrapper">
-                                <img src="./assets/img/react-logo.svg" alt=" React  Logo" class="skills__img">
+                                <img src="./assets/img/expressjs.png" alt="CSS Logo" class="skills__img">
                             </div>
-                            <h3 class="skills__name">React</h3>
+                            <h3 class="skills__name">Express.js</h3>
                         </div>
                         <div class="skills__card">
                             <div class="skills__img-wrapper">
-                                <img src="./assets/img/vue-logo.svg" alt="Vue.js Logo" class="skills__img">
+                                <img src="./assets/img/spring-boot-logo.png" alt="JavaScript Logo" class="skills__img">
                             </div>
-                            <h3 class="skills__name">Vue.js</h3>
+                            <h3 class="skills__name">Spring Boot</h3>
+                        </div>
+                        <div class="skills__card">
+                            <div class="skills__img-wrapper">
+                                <img src="./assets/img/laravel.png" alt="Node.Js Logo" class="skills__img">
+                            </div>
+                            <h3 class="skills__name">Laravel</h3>
+                        </div>
+                        <div class="skills__card">
+                            <div class="skills__img-wrapper">
+                                <img src="./assets/img/mongodb.png" alt=" React  Logo" class="skills__img">
+                            </div>
+                            <h3 class="skills__name">MongoDB</h3>
+                        </div>
+                        <div class="skills__card">
+                            <div class="skills__img-wrapper">
+                                <img src="./assets/img/mysql.png" alt="Vue.js Logo" class="skills__img">
+                            </div>
+                            <h3 class="skills__name">My SQL</h3>
                         </div>
                     </div>
                 </div>
@@ -325,11 +325,11 @@
                         <div class="portfolio__info-wrapper">
                             <h3 class="portfolio__title">Website Design</h3>
                             <p class="portfolio__description">
-                                Coming soon...
+                                E-Commerce Website
                             </p>
                         </div>
                     </div>
-                    <a href="javascript:void(0)" class="portfolio__link">
+                    <a href="https://singsampai3.onrender.com/" class="portfolio__link">
                         <i class="ri-external-link-line"></i>
                     </a>
                 </div>
@@ -369,7 +369,7 @@
         </section>
 
         <!--===================== Testimonial =====================-->
-        <section class="testimonial section section-bg">
+        <!-- <section class="testimonial section section-bg">
             <div class="section__header container">
                 <span class="section__subtitle">Testimonials</span>
                 <h2 class="section__title">What Clients Are Saying About Me</h2>
@@ -435,10 +435,10 @@
                 </div>
                 <div class="swiper-pagination"></div>
             </div>
-        </section>
+        </section> -->
 
         <!--===================== blog =====================-->
-        <section id="blog" class="blog section">
+        <!-- <section id="blog" class="blog section">
             <div class="section__header container">
                 <span class="section__subtitle">My Blog</span>
                 <h2 class="section__title">Latest Posts & News</h2>
@@ -497,7 +497,7 @@
                     </div>
                 </div>
             </div>
-        </section>
+        </section> -->
 
         <!--===================== Contact =====================-->
         <section id="contact" class="contact section section-bg">
@@ -580,9 +580,9 @@
                     <li class="footer__item">
                         <a href="#portfolio" class="footer__link">Portfolio</a>
                     </li>
-                    <li class="footer__item">
+                    <!-- <li class="footer__item">
                         <a href="#blog" class="footer__link">Blog</a>
-                    </li>
+                    </li> -->
                     <li class="footer__item">
                         <a href="#contact" class="footer__link">Contact</a>
                     </li>
@@ -599,7 +599,7 @@
                         </a>
                     </li>
                     <li class="social__item">
-                        <a href="javascript:void(0)" class="social__link">
+                        <a href="www.linkedin.com/in/sun-vysing-91793b241" class="social__link">
                             <i class="ri-dribbble-line"></i>
                         </a>
                     </li>
