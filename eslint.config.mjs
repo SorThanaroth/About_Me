@@ -14,7 +14,7 @@ export default [
     },
     rules: {
       // Ensure it is set to "error"
-      "no-unused-vars": "error", 
+      "no-unused-vars": "error",    
     },
   },
 ];
