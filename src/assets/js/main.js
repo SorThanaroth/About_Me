@@ -160,5 +160,5 @@ sr.reveal(
   ".skills__wrapper, .counter__wrapper, .portfolio__wrapper, .testimonial__wrapper, .blog__wrapper, .footer__content",
   {
     origin: "bottom",
-  }
+  },
 );

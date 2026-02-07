@@ -14,10 +14,10 @@ jobs:
 
   test:
     runs-on: ubuntu-latest
-    steps:          
+    steps:
       - uses: actions/checkout@v4
       - run: npm ci
-      - run: npm test  
+      - run: npm test
 
   build:
     needs: [lint, test]
