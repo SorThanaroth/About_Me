@@ -1,488 +1,592 @@
 <template>
-    <!--===================== Header =====================-->
-    <header id="header" class="header">
-        <nav class="nav container">
-            <a href="index.html" class="nav__brand">Naroth.</a>
-            <div class="nav__menu" id="nav-menu">
-                <ul class="nav__list">
-                    <li class="nav__item">
-                        <a href="#home" class="nav__link">
-                            <i class="ri-home-line nav__icon"></i>
-                            Home
-                        </a>
-                    </li>
-                    <li class="nav__item">
-                        <a href="#about" class="nav__link">
-                            <i class="ri-user-line nav__icon"></i>
-                            About
-                        </a>
-                    </li>
-                    <li class="nav__item">
-                        <a href="#skills" class="nav__link">
-                            <i class="ri-medal-line nav__icon"></i>
-                            Skills</a>
-                    </li>
-                    <li class="nav__item">
-                        <a href="#service" class="nav__link">
-                            <i class="ri-briefcase-line nav__icon"></i>
-                            Services</a>
-                    </li>
-                    <li class="nav__item">
-                        <a href="#portfolio" class="nav__link">
-                            <i class="ri-folders-line nav__icon"></i>
-                            Portfolio</a>
-                    </li>
-                    <!-- <li class="nav__item">
+  <!--===================== Header =====================-->
+  <header id="header" class="header">
+    <nav class="nav container">
+      <a href="index.html" class="nav__brand">Naroth.</a>
+      <div class="nav__menu" id="nav-menu">
+        <ul class="nav__list">
+          <li class="nav__item">
+            <a href="#home" class="nav__link">
+              <i class="ri-home-line nav__icon"></i>
+              Home
+            </a>
+          </li>
+          <li class="nav__item">
+            <a href="#about" class="nav__link">
+              <i class="ri-user-line nav__icon"></i>
+              About
+            </a>
+          </li>
+          <li class="nav__item">
+            <a href="#skills" class="nav__link">
+              <i class="ri-medal-line nav__icon"></i>
+              Skills</a
+            >
+          </li>
+          <li class="nav__item">
+            <a href="#service" class="nav__link">
+              <i class="ri-briefcase-line nav__icon"></i>
+              Services</a
+            >
+          </li>
+          <li class="nav__item">
+            <a href="#portfolio" class="nav__link">
+              <i class="ri-folders-line nav__icon"></i>
+              Portfolio</a
+            >
+          </li>
+          <!-- <li class="nav__item">
                         <a href="#blog" class="nav__link">
                             <i class="ri-message-line nav__icon"></i>
                             Blog</a>
                     </li> -->
-                    <li class="nav__item">
-                        <a href="#contact" class="nav__link">
-                            <i class="ri-phone-line nav__icon"></i>
-                            Contact</a>
-                    </li>
-                </ul>
-            </div>
-            <div class="nav__buttons">
-                <span class="theme__toggle">
-                    <i id="theme-toggle" class="ri-moon-line"></i>
-                </span>
-                <span class="nav__toggle">
-                    <i id="nav-toggle" class="ri-menu-4-line"></i>
-                </span>
-            </div>
-        </nav>
-    </header>
+          <li class="nav__item">
+            <a href="#contact" class="nav__link">
+              <i class="ri-phone-line nav__icon"></i>
+              Contact</a
+            >
+          </li>
+        </ul>
+      </div>
+      <div class="nav__buttons">
+        <span class="theme__toggle">
+          <i id="theme-toggle" class="ri-moon-line"></i>
+        </span>
+        <span class="nav__toggle">
+          <i id="nav-toggle" class="ri-menu-4-line"></i>
+        </span>
+      </div>
+    </nav>
+  </header>
 
-    <!--===================== Main =====================-->
-    <main class="main">
-        <!--===================== Home =====================-->
-        <section id="home" class="home">
-            <div class="d-grid home__wrapper container">
-                <div class="home__content">
-                    <h1 class="home__title">
-                        I Am <span class="home__name">Naroth</span><br>
-                        <!-- UI/UX Designer<br> -->
-                        Web Developer
-                    </h1>
-                    <p class="home__description">
-                      <!-- A product-focused fullstack
+  <!--===================== Main =====================-->
+  <main class="main">
+    <!--===================== Home =====================-->
+    <section id="home" class="home">
+      <div class="d-grid home__wrapper container">
+        <div class="home__content">
+          <h1 class="home__title">
+            I Am <span class="home__name">Naroth</span><br />
+            <!-- UI/UX Designer<br> -->
+            Web Developer
+          </h1>
+          <p class="home__description">
+            <!-- A product-focused fullstack
                       developer based in Cambodia. Previously
                       Technical Lead at Inviter.
                       I specialise in helping products grow
                       based on user metrics. -->
-                      I'm SOR THANAROTH, a software engineer specializing in building (and occasionally
-                      designing) exceptional digital experiences. Currently, I'm focused on
-                      building complex applications with modern technologies.
-                    </p>
-                    <a href="#contact" class="btn btn--primary">
-                        <i class="ri-mail-line"></i>
-                        Hire Me
-                    </a>
-                    <div class="social">
-                        <span class="social__title">Follow Me</span>
-                        <ul class="social__list">
-                            <li class="social__item">
-                                <a href="https://web.facebook.com/na.roth.897120" class="social__link">
-                                    <i class="ri-facebook-fill"></i>
-                                </a>
-                            </li>
-                            <li class="social__item">
-                                <a href="javascript:void(0)" class="social__link">
-                                    <i class="ri-twitter-line"></i>
-                                </a>
-                            </li>
-                            <li class="social__item">
-                                <a href="www.linkedin.com/in/sortha-naroth-1812b6343" class="social__link">
-                                    <i class="ri-dribbble-line"></i>
-                                </a>
-                            </li>
-                        </ul>
-                    </div>
-                </div>
-                <img src="./assets/img/profile_naroth.jpg" alt="Natasha Smith" class="home__img">
+            I'm SOR THANAROTH, a software engineer specializing in building (and
+            occasionally designing) exceptional digital experiences. Currently,
+            I'm focused on building complex applications with modern
+            technologies.
+          </p>
+          <a href="#contact" class="btn btn--primary">
+            <i class="ri-mail-line"></i>
+            Hire Me
+          </a>
+          <div class="social">
+            <span class="social__title">Follow Me</span>
+            <ul class="social__list">
+              <li class="social__item">
+                <a
+                  href="https://web.facebook.com/na.roth.897120"
+                  class="social__link"
+                >
+                  <i class="ri-facebook-fill"></i>
+                </a>
+              </li>
+              <li class="social__item">
+                <a href="javascript:void(0)" class="social__link">
+                  <i class="ri-twitter-line"></i>
+                </a>
+              </li>
+              <li class="social__item">
+                <a
+                  href="www.linkedin.com/in/sortha-naroth-1812b6343"
+                  class="social__link"
+                >
+                  <i class="ri-dribbble-line"></i>
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <img
+          src="./assets/img/profile_naroth.jpg"
+          alt="Natasha Smith"
+          class="home__img"
+        />
+      </div>
+    </section>
+
+    <!--===================== About =====================-->
+    <section id="about" class="about section">
+      <div class="d-grid about__wrapper container">
+        <div class="about__content">
+          <span class="section__subtitle">About Me</span>
+          <h2 class="section__title">
+            I Design and Develop Experiences that make people's live simple.
+          </h2>
+          <p class="about__description">
+            Self-independent, reliable and friendly individual who works hard to
+            achieve my goals. Adaptable quickly, and organized well. Interested
+            in learning the latest web & software technologies quickly. Able to
+            work well in teams as well as individually.
+          </p>
+          <a
+            href="/SOR_Thannaroth_Web_Developer_CV_Resume.pdf"
+            class="btn btn--primary"
+            download="SOR_Thannaroth_Web_Developer_CV_Resume.pdf"
+          >
+            <i class="ri-article-line"></i>Download CV</a
+          >
+        </div>
+        <img
+          src="./assets/img/about_naroth.jpg"
+          alt="Natasha Smith"
+          class="about__img"
+        />
+      </div>
+    </section>
+
+    <!--===================== Skills =====================-->
+    <section id="skills" class="skills section section-bg">
+      <div class="section__header container">
+        <span class="section__subtitle">Skills</span>
+        <h2 class="section__title">Some of My Working Tools</h2>
+      </div>
+      <div class="d-grid skills__wrapper container">
+        <div class="skills__content">
+          <h3 class="skills__title">Frontend Development</h3>
+          <div class="skills__content-wrapper">
+            <div class="skills__card">
+              <div class="skills__img-wrapper">
+                <img
+                  src="./assets/img/figma-logo.svg"
+                  alt="Figma Logo"
+                  class="skills__img"
+                />
+              </div>
+              <h3 class="skills__name">Figma</h3>
             </div>
-        </section>
-
-        <!--===================== About =====================-->
-        <section id="about" class="about section">
-            <div class="d-grid about__wrapper container">
-                <div class="about__content">
-                    <span class="section__subtitle">About Me</span>
-                    <h2 class="section__title">I Design and Develop Experiences that
-                        make people's live simple.</h2>
-                    <p class="about__description">Self-independent, reliable and friendly individual who works hard to 
-                            achieve
-                            my goals. Adaptable quickly, and organized well. Interested in 
-                            learning the latest web & 
-                            software technologies quickly. Able to work 
-                            well in teams as well as individually.
-                    </p>
-                    <a href="/SOR_Thannaroth_Web_Developer_CV_Resume.pdf" class="btn btn--primary" download="SOR_Thannaroth_Web_Developer_CV_Resume.pdf">
-                      <i class="ri-article-line"></i>Download CV</a>
-                </div>
-                <img src="./assets/img/about_naroth.jpg" alt="Natasha Smith" class="about__img">
+            <div class="skills__card">
+              <div class="skills__img-wrapper">
+                <img
+                  src="./assets/img/html-logo.svg"
+                  alt="Adobe XD Logo"
+                  class="skills__img"
+                />
+              </div>
+              <h3 class="skills__name">HTML</h3>
             </div>
-        </section>
-
-        <!--===================== Skills =====================-->
-        <section id="skills" class="skills section section-bg">
-            <div class="section__header container">
-                <span class="section__subtitle">Skills</span>
-                <h2 class="section__title">Some of My Working Tools
-                </h2>
+            <div class="skills__card">
+              <div class="skills__img-wrapper">
+                <img
+                  src="./assets/img/css-logo.svg"
+                  alt="Illustrator Logo"
+                  class="skills__img"
+                />
+              </div>
+              <h3 class="skills__name">CSS</h3>
             </div>
-            <div class="d-grid skills__wrapper container">
-                <div class="skills__content">
-                    <h3 class="skills__title">Frontend Development</h3>
-                    <div class="skills__content-wrapper">
-                        <div class="skills__card">
-                            <div class="skills__img-wrapper">
-                                <img src="./assets/img/figma-logo.svg" alt="Figma Logo" class="skills__img">
-                            </div>
-                            <h3 class="skills__name">Figma</h3>
-                        </div>
-                        <div class="skills__card">
-                            <div class="skills__img-wrapper">
-                                <img src="./assets/img/html-logo.svg" alt="Adobe XD Logo" class="skills__img">
-                            </div>
-                            <h3 class="skills__name">HTML</h3>
-                        </div>
-                        <div class="skills__card">
-                            <div class="skills__img-wrapper">
-                                <img src="./assets/img/css-logo.svg" alt="Illustrator Logo"
-                                    class="skills__img">
-                            </div>
-                            <h3 class="skills__name">CSS</h3>
-                        </div>
-                        <div class="skills__card">
-                            <div class="skills__img-wrapper">
-                                <img src="./assets/img/tailwind.png" alt="Photoshop Logo" class="skills__img">
-                            </div>
-                            <h3 class="skills__name">TailwindCSS</h3>
-                        </div>
-                        <div class="skills__card">
-                            <div class="skills__img-wrapper">
-                                <img src="./assets/img/javascript-logo.svg" alt="Sketch Logo" class="skills__img">
-                            </div>
-                            <h3 class="skills__name">JavaScript</h3>
-                        </div>
-                        <div class="skills__card">
-                            <div class="skills__img-wrapper">
-                                <img src="./assets/img/vue-logo.svg" alt="InVision Logo" class="skills__img">
-                            </div>
-                            <h3 class="skills__name">Vue.js</h3>
-                        </div>
-                    </div>
-                </div>
-                <div class="skills__content">
-                    <h3 class="skills__title">Backend Development</h3>
-                    <div class="skills__content-wrapper">
-                        <div class="skills__card">
-                            <div class="skills__img-wrapper">
-                                <img src="./assets/img/nodejs-logo.svg" alt="HTML Logo" class="skills__img">
-                            </div>
-                            <h3 class="skills__name">Node.Js</h3>
-                        </div>
-                        <div class="skills__card">
-                            <div class="skills__img-wrapper">
-                                <img src="./assets/img/nestJs-logo.png" alt="CSS Logo" class="skills__img">
-                            </div>
-                            <h3 class="skills__name">Nest.js</h3>
-                        </div>
-                        <div class="skills__card">
-                            <div class="skills__img-wrapper">
-                                <img src="./assets/img/spring-boot-logo.png" alt="JavaScript Logo" class="skills__img">
-                            </div>
-                            <h3 class="skills__name">Spring Boot</h3>
-                        </div>
-                        <div class="skills__card">
-                            <div class="skills__img-wrapper">
-                                <img src="./assets/img/laravel.png" alt="Node.Js Logo" class="skills__img">
-                            </div>
-                            <h3 class="skills__name">Laravel</h3>
-                        </div>
-                        <div class="skills__card">
-                            <div class="skills__img-wrapper">
-                                <img src="./assets/img/postgreSQL-logo.png" alt=" React  Logo" class="skills__img">
-                            </div>
-                            <h3 class="skills__name">PostgreSQL</h3>
-                        </div>
-                        <div class="skills__card">
-                            <div class="skills__img-wrapper">
-                                <img src="./assets/img/mysql.png" alt="Vue.js Logo" class="skills__img">
-                            </div>
-                            <h3 class="skills__name">My SQL</h3>
-                        </div>
-                    </div>
-                </div>
+            <div class="skills__card">
+              <div class="skills__img-wrapper">
+                <img
+                  src="./assets/img/tailwind.png"
+                  alt="Photoshop Logo"
+                  class="skills__img"
+                />
+              </div>
+              <h3 class="skills__name">TailwindCSS</h3>
             </div>
-        </section>
-
-        <!--===================== Counter =====================-->
-        <section class="counter section">
-            <div class="d-grid counter__wrapper container">
-                <div class="counter__item">
-                    <span class="counter__icon">
-                        <i class="ri-user-line"></i>
-                    </span>
-                    <p class="counter__number" data-target="8">0</p>
-                    <h2 class="counter__title">Years Experience</h2>
-                </div>
-                <div class="counter__item">
-                    <span class="counter__icon">
-                        <i class="ri-briefcase-line"></i>
-                    </span>
-                    <p class="counter__number" data-target="100">0</p>
-                    <h2 class="counter__title">Projects Completed</h2>
-                </div>
-                <div class="counter__item">
-                    <span class="counter__icon">
-                        <i class="ri-cup-line"></i>
-                    </span>
-                    <p class="counter__number" data-target="350">0</p>
-                    <h2 class="counter__title">Cups Of Coffee</h2>
-                </div>
-                <div class="counter__item">
-                    <span class="counter__icon">
-                        <i class="ri-user-smile-line"></i>
-                    </span>
-                    <p class="counter__number" data-target="225">0</p>
-                    <h2 class="counter__title">Happy Clients</h2>
-                </div>
+            <div class="skills__card">
+              <div class="skills__img-wrapper">
+                <img
+                  src="./assets/img/javascript-logo.svg"
+                  alt="Sketch Logo"
+                  class="skills__img"
+                />
+              </div>
+              <h3 class="skills__name">JavaScript</h3>
             </div>
-        </section>
-
-        <!--===================== Services =====================-->
-        <section id="service" class="service section section-bg">
-            <div class="d-grid service__wrapper container">
-                <div class="service__content">
-                    <span class="section__subtitle">My Services</span>
-                    <h2 class="section__title">What I Provide To My Clients</h2>
-
-                    <p class="service__description">
-                      I prioritize clean code, efficient algorithms, and search engine optimization (SEO) best practices to enhance website speed, visibility, and accessibility.
-                    </p>
-
-                    <p class="service__description">
-                      By choosing me as their web developer, clients can expect a seamless and enjoyable experience, a website that reflects their brand identity, and a strong online presence that attracts and engages their target audience.
-                    </p>
-
-                    <a href="#" class="btn btn--primary">
-                        <i class="ri-chat-3-line"></i>
-                        Let's Talk
-                    </a>
-                </div>
-                <div class="service__info">
-                    <div class="service__card">
-                        <div class="service__icon">
-                            <i class="ri-code-line"></i>
-                        </div>
-                        <div class="service__info-wrapper">
-                            <h3 class="service__info-title">Frontend Development</h3>
-                            <p class="service__description">
-                              I specialize in leveraging frontend frameworks like React, Vue.js to build dynamic web applications
-                            </p>
-                        </div>
-                    </div>
-                    <div class="service__card">
-                        <div class="service__icon">
-                            <i class="ri-layout-masonry-fill"></i>
-                        </div>
-                        <div class="service__info-wrapper">
-                            <h3 class="service__info-title">UI/UX Design</h3>
-                            <p class="service__description">
-                              I prioritize accessibility in UI/UX design, ensuring that I create are usable and enjoyable for all users.
-                            </p>
-                        </div>
-                    </div>
-                    <div class="service__card">
-                        <div class="service__icon">
-                            <i class="ri-pen-nib-fill"></i>
-                        </div>
-                        <div class="service__info-wrapper">
-                            <h3 class="service__info-title">Backend Development</h3>
-                            <p class="service__description">
-                              I stay updated with latest backend technologies to enhance efficiency of my development process.
-                            </p>
-                        </div>
-                    </div>
-                </div>
+            <div class="skills__card">
+              <div class="skills__img-wrapper">
+                <img
+                  src="./assets/img/vue-logo.svg"
+                  alt="InVision Logo"
+                  class="skills__img"
+                />
+              </div>
+              <h3 class="skills__name">Vue.js</h3>
             </div>
-        </section>
-
-        <!--===================== Portfolio =====================-->
-        <section id="portfolio" class="portfolio section">
-            <div class="section__header container">
-                <span class="section__subtitle">Portfolio</span>
-                <h2 class="section__title">Featured Projects</h2>
+          </div>
+        </div>
+        <div class="skills__content">
+          <h3 class="skills__title">Backend Development</h3>
+          <div class="skills__content-wrapper">
+            <div class="skills__card">
+              <div class="skills__img-wrapper">
+                <img
+                  src="./assets/img/nodejs-logo.svg"
+                  alt="HTML Logo"
+                  class="skills__img"
+                />
+              </div>
+              <h3 class="skills__name">Node.Js</h3>
             </div>
-            <div class="d-grid portfolio__wrapper container">
-                <div class="portfolio__project">
-                    <div class="portfolio__overlay"></div>
-                    <img src="./assets/img/project1.jpg" alt="Website Design" class="portfolio__img">
-                    <div class="portfolio__info">
-                        <div class="portfolio__info-wrapper">
-                            <h3 class="portfolio__title">Website Design</h3>
-                            <p class="portfolio__description">
-                                E-Commerce Website
-                            </p>
-                        </div>
-                    </div>
-                    <a href="https://naroth.onrender.com/" class="portfolio__link">
-                        <i class="ri-external-link-line"></i>
-                    </a>
-                </div>
-
-                <div class="portfolio__project">
-                    <div class="portfolio__overlay"></div>
-                    <img src="./assets/img/project2.jpg" alt="Mobile App UI/UX Design " class="portfolio__img">
-                    <div class="portfolio__info">
-                        <div class="portfolio__info-wrapper">
-                            <h3 class="portfolio__title">Mobile App UI/UX Design</h3>
-                            <p class="portfolio__description">
-                              Coming soon...
-                            </p>
-                        </div>
-                    </div>
-                    <a href="javascript:void(0)" class="portfolio__link">
-                        <i class="ri-external-link-line"></i>
-                    </a>
-                </div>
-
-                <div class="portfolio__project">
-                    <div class="portfolio__overlay"></div>
-                    <img src="./assets/img/project3.jpg" alt="App Re-design" class="portfolio__img">
-                    <div class="portfolio__info">
-                        <div class="portfolio__info-wrapper">
-                            <h3 class="portfolio__title">App Re-design</h3>
-                            <p class="portfolio__description">
-                              Coming soon...
-                            </p>
-                        </div>
-                    </div>
-                    <a href="javascript:void(0)" class="portfolio__link">
-                        <i class="ri-external-link-line"></i>
-                    </a>
-                </div>
+            <div class="skills__card">
+              <div class="skills__img-wrapper">
+                <img
+                  src="./assets/img/nestJs-logo.png"
+                  alt="CSS Logo"
+                  class="skills__img"
+                />
+              </div>
+              <h3 class="skills__name">Nest.js</h3>
             </div>
-        </section>
-
-        <!--===================== Contact =====================-->
-        <section id="contact" class="contact section section-bg">
-            <div class="section__header container">
-                <span class="section__subtitle">Let's Talk</span>
-                <h2 class="section__title">Have a Project Idea? Feel Free to Contact</h2>
+            <div class="skills__card">
+              <div class="skills__img-wrapper">
+                <img
+                  src="./assets/img/spring-boot-logo.png"
+                  alt="JavaScript Logo"
+                  class="skills__img"
+                />
+              </div>
+              <h3 class="skills__name">Spring Boot</h3>
             </div>
-            <div class="d-grid contact__wrapper container">
-                <form action="" class="contact__form">
-                    <div class="form__group">
-                        <label for="" class="form__label">Name</label>
-                        <input type="text" class="form__input" placeholder="Enter your name" required>
-                    </div>
-                    <div class="form__group">
-                        <label for="" class="form__label">Email</label>
-                        <input type="email" class="form__input" placeholder="Enter your email" required>
-                    </div>
-                    <div class="form__group">
-                        <label for="" class="form__label">Message</label>
-                        <textarea class="form__input form__textarea"
-                            placeholder="Tell me about your project"></textarea>
-                    </div>
-                    <button type="submit" class="btn btn--primary">
-                        <i class="ri-send-plane-line"></i>Send Message
-                    </button>
-                </form>
-                <div class="d-grid contact__content">
-                    <div class="contact__info">
-                        <div class="contact__icon">
-                            <i class="ri-phone-line"></i>
-                        </div>
-                        <div class="contact__info-wrapper">
-                            <h3 class="contact__title">Call:</h3>
-                            <p class="contact__description">(+855) 69 928 531</p>
-                        </div>
-                    </div>
-
-                    <div class="contact__info">
-                        <div class="contact__icon">
-                            <i class="ri-mail-line"></i>
-                        </div>
-                        <div class="contact__info-wrapper">
-                            <h3 class="contact__title">Email:</h3>
-                            <p class="contact__description">sorthanaroth018@gmail.com</p>
-                        </div>
-                    </div>
-
-                    <div class="contact__info">
-                        <div class="contact__icon">
-                            <i class="ri-map-pin-line"></i>
-                        </div>
-                        <div class="contact__info-wrapper">
-                            <h3 class="contact__title">Location:</h3>
-                            <p class="contact__description">Toul Kok Phnom Penh, Cambodia</p>
-                        </div>
-                    </div>
-                </div>
+            <div class="skills__card">
+              <div class="skills__img-wrapper">
+                <img
+                  src="./assets/img/laravel.png"
+                  alt="Node.Js Logo"
+                  class="skills__img"
+                />
+              </div>
+              <h3 class="skills__name">Laravel</h3>
             </div>
-        </section>
-    </main>
+            <div class="skills__card">
+              <div class="skills__img-wrapper">
+                <img
+                  src="./assets/img/postgreSQL-logo.png"
+                  alt=" React  Logo"
+                  class="skills__img"
+                />
+              </div>
+              <h3 class="skills__name">PostgreSQL</h3>
+            </div>
+            <div class="skills__card">
+              <div class="skills__img-wrapper">
+                <img
+                  src="./assets/img/mysql.png"
+                  alt="Vue.js Logo"
+                  class="skills__img"
+                />
+              </div>
+              <h3 class="skills__name">My SQL</h3>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
 
-    <!--===================== Footer =====================-->
-    <footer class="footer">
-        <div class="d-grid footer__wrapper container">
-            <div class="footer__content">
-                <h4 class="footer__name">Thanaroth Sor</h4>
-                <ul class="footer__list">
-                    <li class="footer__item">
-                        <a href="#home" class="footer__link">Home</a>
-                    </li>
-                    <li class="footer__item">
-                        <a href="#about" class="footer__link">About</a>
-                    </li>
-                    <li class="footer__item">
-                        <a href="#skills" class="footer__link">Skills</a>
-                    </li>
-                    <li class="footer__item">
-                        <a href="#service" class="footer__link">Services</a>
-                    </li>
-                    <li class="footer__item">
-                        <a href="#portfolio" class="footer__link">Portfolio</a>
-                    </li>
-                    <!-- <li class="footer__item">
+    <!--===================== Counter =====================-->
+    <section class="counter section">
+      <div class="d-grid counter__wrapper container">
+        <div class="counter__item">
+          <span class="counter__icon">
+            <i class="ri-user-line"></i>
+          </span>
+          <p class="counter__number" data-target="8">0</p>
+          <h2 class="counter__title">Years Experience</h2>
+        </div>
+        <div class="counter__item">
+          <span class="counter__icon">
+            <i class="ri-briefcase-line"></i>
+          </span>
+          <p class="counter__number" data-target="100">0</p>
+          <h2 class="counter__title">Projects Completed</h2>
+        </div>
+        <div class="counter__item">
+          <span class="counter__icon">
+            <i class="ri-cup-line"></i>
+          </span>
+          <p class="counter__number" data-target="350">0</p>
+          <h2 class="counter__title">Cups Of Coffee</h2>
+        </div>
+        <div class="counter__item">
+          <span class="counter__icon">
+            <i class="ri-user-smile-line"></i>
+          </span>
+          <p class="counter__number" data-target="225">0</p>
+          <h2 class="counter__title">Happy Clients</h2>
+        </div>
+      </div>
+    </section>
+
+    <!--===================== Services =====================-->
+    <section id="service" class="service section section-bg">
+      <div class="d-grid service__wrapper container">
+        <div class="service__content">
+          <span class="section__subtitle">My Services</span>
+          <h2 class="section__title">What I Provide To My Clients</h2>
+
+          <p class="service__description">
+            I prioritize clean code, efficient algorithms, and search engine
+            optimization (SEO) best practices to enhance website speed,
+            visibility, and accessibility.
+          </p>
+
+          <p class="service__description">
+            By choosing me as their web developer, clients can expect a seamless
+            and enjoyable experience, a website that reflects their brand
+            identity, and a strong online presence that attracts and engages
+            their target audience.
+          </p>
+
+          <a href="#" class="btn btn--primary">
+            <i class="ri-chat-3-line"></i>
+            Let's Talk
+          </a>
+        </div>
+        <div class="service__info">
+          <div class="service__card">
+            <div class="service__icon">
+              <i class="ri-code-line"></i>
+            </div>
+            <div class="service__info-wrapper">
+              <h3 class="service__info-title">Frontend Development</h3>
+              <p class="service__description">
+                I specialize in leveraging frontend frameworks like React,
+                Vue.js to build dynamic web applications
+              </p>
+            </div>
+          </div>
+          <div class="service__card">
+            <div class="service__icon">
+              <i class="ri-layout-masonry-fill"></i>
+            </div>
+            <div class="service__info-wrapper">
+              <h3 class="service__info-title">UI/UX Design</h3>
+              <p class="service__description">
+                I prioritize accessibility in UI/UX design, ensuring that I
+                create are usable and enjoyable for all users.
+              </p>
+            </div>
+          </div>
+          <div class="service__card">
+            <div class="service__icon">
+              <i class="ri-pen-nib-fill"></i>
+            </div>
+            <div class="service__info-wrapper">
+              <h3 class="service__info-title">Backend Development</h3>
+              <p class="service__description">
+                I stay updated with latest backend technologies to enhance
+                efficiency of my development process.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!--===================== Portfolio =====================-->
+    <section id="portfolio" class="portfolio section">
+      <div class="section__header container">
+        <span class="section__subtitle">Portfolio</span>
+        <h2 class="section__title">Featured Projects</h2>
+      </div>
+      <div class="d-grid portfolio__wrapper container">
+        <div class="portfolio__project">
+          <div class="portfolio__overlay"></div>
+          <img
+            src="./assets/img/project1.jpg"
+            alt="Website Design"
+            class="portfolio__img"
+          />
+          <div class="portfolio__info">
+            <div class="portfolio__info-wrapper">
+              <h3 class="portfolio__title">Website Design</h3>
+              <p class="portfolio__description">E-Commerce Website</p>
+            </div>
+          </div>
+          <a href="https://naroth.onrender.com/" class="portfolio__link">
+            <i class="ri-external-link-line"></i>
+          </a>
+        </div>
+
+        <div class="portfolio__project">
+          <div class="portfolio__overlay"></div>
+          <img
+            src="./assets/img/project2.jpg"
+            alt="Mobile App UI/UX Design "
+            class="portfolio__img"
+          />
+          <div class="portfolio__info">
+            <div class="portfolio__info-wrapper">
+              <h3 class="portfolio__title">Mobile App UI/UX Design</h3>
+              <p class="portfolio__description">Coming soon...</p>
+            </div>
+          </div>
+          <a href="javascript:void(0)" class="portfolio__link">
+            <i class="ri-external-link-line"></i>
+          </a>
+        </div>
+
+        <div class="portfolio__project">
+          <div class="portfolio__overlay"></div>
+          <img
+            src="./assets/img/project3.jpg"
+            alt="App Re-design"
+            class="portfolio__img"
+          />
+          <div class="portfolio__info">
+            <div class="portfolio__info-wrapper">
+              <h3 class="portfolio__title">App Re-design</h3>
+              <p class="portfolio__description">Coming soon...</p>
+            </div>
+          </div>
+          <a href="javascript:void(0)" class="portfolio__link">
+            <i class="ri-external-link-line"></i>
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <!--===================== Contact =====================-->
+    <section id="contact" class="contact section section-bg">
+      <div class="section__header container">
+        <span class="section__subtitle">Let's Talk</span>
+        <h2 class="section__title">
+          Have a Project Idea? Feel Free to Contact
+        </h2>
+      </div>
+      <div class="d-grid contact__wrapper container">
+        <form action="" class="contact__form">
+          <div class="form__group">
+            <label for="" class="form__label">Name</label>
+            <input
+              type="text"
+              class="form__input"
+              placeholder="Enter your name"
+              required
+            />
+          </div>
+          <div class="form__group">
+            <label for="" class="form__label">Email</label>
+            <input
+              type="email"
+              class="form__input"
+              placeholder="Enter your email"
+              required
+            />
+          </div>
+          <div class="form__group">
+            <label for="" class="form__label">Message</label>
+            <textarea
+              class="form__input form__textarea"
+              placeholder="Tell me about your project"
+            ></textarea>
+          </div>
+          <button type="submit" class="btn btn--primary">
+            <i class="ri-send-plane-line"></i>Send Message
+          </button>
+        </form>
+        <div class="d-grid contact__content">
+          <div class="contact__info">
+            <div class="contact__icon">
+              <i class="ri-phone-line"></i>
+            </div>
+            <div class="contact__info-wrapper">
+              <h3 class="contact__title">Call:</h3>
+              <p class="contact__description">(+855) 69 928 531</p>
+            </div>
+          </div>
+
+          <div class="contact__info">
+            <div class="contact__icon">
+              <i class="ri-mail-line"></i>
+            </div>
+            <div class="contact__info-wrapper">
+              <h3 class="contact__title">Email:</h3>
+              <p class="contact__description">sorthanaroth018@gmail.com</p>
+            </div>
+          </div>
+
+          <div class="contact__info">
+            <div class="contact__icon">
+              <i class="ri-map-pin-line"></i>
+            </div>
+            <div class="contact__info-wrapper">
+              <h3 class="contact__title">Location:</h3>
+              <p class="contact__description">Toul Kok Phnom Penh, Cambodia</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!--===================== Footer =====================-->
+  <footer class="footer">
+    <div class="d-grid footer__wrapper container">
+      <div class="footer__content">
+        <h4 class="footer__name">Thanaroth Sor</h4>
+        <ul class="footer__list">
+          <li class="footer__item">
+            <a href="#home" class="footer__link">Home</a>
+          </li>
+          <li class="footer__item">
+            <a href="#about" class="footer__link">About</a>
+          </li>
+          <li class="footer__item">
+            <a href="#skills" class="footer__link">Skills</a>
+          </li>
+          <li class="footer__item">
+            <a href="#service" class="footer__link">Services</a>
+          </li>
+          <li class="footer__item">
+            <a href="#portfolio" class="footer__link">Portfolio</a>
+          </li>
+          <!-- <li class="footer__item">
                         <a href="#blog" class="footer__link">Blog</a>
                     </li> -->
-                    <li class="footer__item">
-                        <a href="#contact" class="footer__link">Contact</a>
-                    </li>
-                </ul>
-                <ul class="social__list">
-                    <li class="social__item">
-                        <a href="https://web.facebook.com/na.roth.897120" class="social__link">
-                            <i class="ri-facebook-fill"></i>
-                        </a>
-                    </li>
-                    <li class="social__item">
-                        <a href="javascript:void(0)" class="social__link">
-                            <i class="ri-twitter-line"></i>
-                        </a>
-                    </li>
-                    <li class="social__item">
-                        <a href="www.linkedin.com/in/sortha-naroth-1812b6343" class="social__link">
-                            <i class="ri-dribbble-line"></i>
-                        </a>
-                    </li>
-                </ul>
-            </div>
-        </div>
-        <div class="footer__copyright container">
-            <p>&copy; Copyright 2023 Designed by Thanaroth Sor.</p>
-        </div>
-    </footer>
-    <a href="#" id="scrolltop" class="scrolltop">
-        <i class="ri-arrow-up-line"></i>
-    </a>
+          <li class="footer__item">
+            <a href="#contact" class="footer__link">Contact</a>
+          </li>
+        </ul>
+        <ul class="social__list">
+          <li class="social__item">
+            <a
+              href="https://web.facebook.com/na.roth.897120"
+              class="social__link"
+            >
+              <i class="ri-facebook-fill"></i>
+            </a>
+          </li>
+          <li class="social__item">
+            <a href="javascript:void(0)" class="social__link">
+              <i class="ri-twitter-line"></i>
+            </a>
+          </li>
+          <li class="social__item">
+            <a
+              href="www.linkedin.com/in/sortha-naroth-1812b6343"
+              class="social__link"
+            >
+              <i class="ri-dribbble-line"></i>
+            </a>
+          </li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer__copyright container">
+      <p>&copy; Copyright 2023 Designed by Thanaroth Sor.</p>
+    </div>
+  </footer>
+  <a href="#" id="scrolltop" class="scrolltop">
+    <i class="ri-arrow-up-line"></i>
+  </a>
 </template>
 <style>
 @import url('https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css');
@@ -506,7 +610,7 @@
 
   /* Font & Typography
   ___________________*/
-  --font-family-primary: "Rubik", sans-serif;
+  --font-family-primary: 'Rubik', sans-serif;
   /* font sizes */
   --fs-xs: 1.2rem;
   --fs-sm: 1.4rem;
@@ -1560,7 +1664,7 @@ body {
 
   .nav__link::before {
     position: absolute;
-    content: "";
+    content: '';
     background: var(--color-gradient);
     width: 100%;
     height: 0.4rem;
@@ -1605,7 +1709,6 @@ body {
     grid-template-columns: repeat(3, 1fr);
   }
 }
-
 </style>
 <script>
 import ScrollReveal from 'scrollreveal';
@@ -1614,176 +1717,179 @@ import ScrollReveal from 'scrollreveal';
 // import { Swiper, SwiperSlide } from 'swiper/vue';
 import Swiper from 'swiper/bundle';
 
-  // Import Swiper styles
-  import 'swiper/css';
+// Import Swiper styles
+import 'swiper/css';
 
 export default {
   mounted() {
     // Add your JavaScript code here
-    const navMenu = document.getElementById("nav-menu");
-    const navToggle = document.getElementById("nav-toggle");
-    const navLinks = document.querySelectorAll(".nav__link");
-    
-    navToggle.addEventListener("click", () => {
-      navMenu.classList.toggle("nav__menu--open");
+    const navMenu = document.getElementById('nav-menu');
+    const navToggle = document.getElementById('nav-toggle');
+    const navLinks = document.querySelectorAll('.nav__link');
+
+    navToggle.addEventListener('click', () => {
+      navMenu.classList.toggle('nav__menu--open');
       changeToggleIcon();
     });
-    
+
     // Rest of your JavaScript code...
     navLinks.forEach((link) => {
-    link.addEventListener("click", () => {
-        navMenu.classList.remove("nav__menu--open");
+      link.addEventListener('click', () => {
+        navMenu.classList.remove('nav__menu--open');
         changeToggleIcon();
-    });
+      });
     });
 
     // change the nav toggle icon
     function changeToggleIcon() {
-    if (navMenu.classList.contains("nav__menu--open")) {
-        navToggle.classList.replace("ri-menu-4-line", "ri-close-line");
-    } else {
-        navToggle.classList.replace("ri-close-line", "ri-menu-4-line");
-    }
+      if (navMenu.classList.contains('nav__menu--open')) {
+        navToggle.classList.replace('ri-menu-4-line', 'ri-close-line');
+      } else {
+        navToggle.classList.replace('ri-close-line', 'ri-menu-4-line');
+      }
     }
 
     // Activate nav link on scroll
     function addActiveLink() {
-    const section = document.querySelectorAll("section[id]");
-    section.forEach((section) => {
+      const section = document.querySelectorAll('section[id]');
+      section.forEach((section) => {
         const scrollY = window.scrollY,
-        sectionTop = section.offsetTop - 50,
-        sectionHeight = section.offsetHeight,
-        sectionId = section.getAttribute("id");
+          sectionTop = section.offsetTop - 50,
+          sectionHeight = section.offsetHeight,
+          sectionId = section.getAttribute('id');
 
         if (scrollY > sectionTop && scrollY <= sectionTop + sectionHeight) {
-        document
-            .querySelector(".nav__link[href*=" + sectionId + "]")
-            .classList.add("nav__link--active");
+          document
+            .querySelector('.nav__link[href*=' + sectionId + ']')
+            .classList.add('nav__link--active');
         } else {
-        document
-            .querySelector(".nav__link[href*=" + sectionId + "]")
-            .classList.remove("nav__link--active");
+          document
+            .querySelector('.nav__link[href*=' + sectionId + ']')
+            .classList.remove('nav__link--active');
         }
-    });
+      });
     }
 
-    window.addEventListener("scroll", addActiveLink);
+    window.addEventListener('scroll', addActiveLink);
 
     // increment counter
     function startCounter(counter) {
-    // Get the target number
-    const targetNumber = counter.getAttribute("data-target");
-    const increment = setInterval(() => {
+      // Get the target number
+      const targetNumber = counter.getAttribute('data-target');
+      const increment = setInterval(() => {
         counter.textContent++;
 
         if (counter.textContent == targetNumber) {
-        clearInterval(increment);
+          clearInterval(increment);
         }
-    }, 2000 / targetNumber);
+      }, 2000 / targetNumber);
     }
 
-    const counterSection = document.querySelector(".counter");
-    const counters = document.querySelectorAll(".counter__number");
+    const counterSection = document.querySelector('.counter');
+    const counters = document.querySelectorAll('.counter__number');
     let started = false;
 
-    window.addEventListener("scroll", () => {
-    if (window.scrollY >= counterSection.offsetTop - 400) {
+    window.addEventListener('scroll', () => {
+      if (window.scrollY >= counterSection.offsetTop - 400) {
         if (!started) {
-        counters.forEach((counter) => startCounter(counter));
+          counters.forEach((counter) => startCounter(counter));
         }
         started = true;
-    }
+      }
     });
 
     // Testimonial Swiper
 
-    const TestimonialSwiper = new Swiper(".testimonial__wrapper", {
-    spaceBetween: 40,
-    loop: true,
-    grabCursor: true,
-    centeredSlides: true,
-    slidesPerView: "auto",
-    pagination: {
-        el: ".swiper-pagination",
+    const TestimonialSwiper = new Swiper('.testimonial__wrapper', {
+      spaceBetween: 40,
+      loop: true,
+      grabCursor: true,
+      centeredSlides: true,
+      slidesPerView: 'auto',
+      pagination: {
+        el: '.swiper-pagination',
         clickable: true,
-    },
+      },
     });
 
     // Scrolltop
-    const scrolltop = document.getElementById("scrolltop");
+    const scrolltop = document.getElementById('scrolltop');
 
-    window.addEventListener("scroll", () => {
-    if (this.scrollY >= 300) {
-        scrolltop.classList.add("scrolltop--show");
-    } else {
-        scrolltop.classList.remove("scrolltop--show");
-    }
+    window.addEventListener('scroll', () => {
+      if (this.scrollY >= 300) {
+        scrolltop.classList.add('scrolltop--show');
+      } else {
+        scrolltop.classList.remove('scrolltop--show');
+      }
     });
 
     // Dark theme
 
     // check for selected theme in localStorage
-    let theme = localStorage.getItem("theme");
+    let theme = localStorage.getItem('theme');
 
-    const themeToggle = document.getElementById("theme-toggle");
+    const themeToggle = document.getElementById('theme-toggle');
 
     const enableDarkTheme = () => {
-    // Add the dark theme class to the body
-    document.body.classList.add("dark-theme");
-    // change the theme toggle icon
-    themeToggle.classList.replace("ri-moon-line", "ri-sun-line");
-    // update the selected theme in localStorage
-    localStorage.setItem("theme", "dark-theme");
+      // Add the dark theme class to the body
+      document.body.classList.add('dark-theme');
+      // change the theme toggle icon
+      themeToggle.classList.replace('ri-moon-line', 'ri-sun-line');
+      // update the selected theme in localStorage
+      localStorage.setItem('theme', 'dark-theme');
     };
 
     const disableDarkTheme = () => {
-    // remove the dark theme class from the body
-    document.body.classList.remove("dark-theme");
-    // change the theme toggle icon
-    themeToggle.classList.replace("ri-sun-line", "ri-moon-line");
-    // update the selected theme in localStorage
-    localStorage.setItem("theme", null);
+      // remove the dark theme class from the body
+      document.body.classList.remove('dark-theme');
+      // change the theme toggle icon
+      themeToggle.classList.replace('ri-sun-line', 'ri-moon-line');
+      // update the selected theme in localStorage
+      localStorage.setItem('theme', null);
     };
 
     // check if the user previously enabled the dark theme
     // to load the dark theme
-    if (theme === "dark-theme") {
-    enableDarkTheme();
+    if (theme === 'dark-theme') {
+      enableDarkTheme();
     }
 
     // Add toggle theme event
-    themeToggle.addEventListener("click", () => {
-    // get the selected theme
-    theme = localStorage.getItem("theme");
-    if (theme !== "dark-theme") {
+    themeToggle.addEventListener('click', () => {
+      // get the selected theme
+      theme = localStorage.getItem('theme');
+      if (theme !== 'dark-theme') {
         enableDarkTheme();
-    } else {
+      } else {
         disableDarkTheme();
-    }
+      }
     });
 
     // ScrollReveal Animations
 
     const sr = ScrollReveal({
-    origin: "top",
-    distance: "100px",
-    duration: 2500,
-    reset: false,
-    });
-
-    sr.reveal(".home__content, .about__img, .service__content, .contact__content", {
-    origin: "left",
-    });
-
-    sr.reveal(".home__img, .about__content, .service__info, .contact__form", {
-    origin: "right",
+      origin: 'top',
+      distance: '100px',
+      duration: 2500,
+      reset: false,
     });
 
     sr.reveal(
-    ".skills__wrapper, .counter__wrapper, .portfolio__wrapper, .testimonial__wrapper, .blog__wrapper, .footer__content",
-    {
-        origin: "bottom",
-    }
+      '.home__content, .about__img, .service__content, .contact__content',
+      {
+        origin: 'left',
+      }
+    );
+
+    sr.reveal('.home__img, .about__content, .service__info, .contact__form', {
+      origin: 'right',
+    });
+
+    sr.reveal(
+      '.skills__wrapper, .counter__wrapper, .portfolio__wrapper, .testimonial__wrapper, .blog__wrapper, .footer__content',
+      {
+        origin: 'bottom',
+      }
     );
   },
 };
