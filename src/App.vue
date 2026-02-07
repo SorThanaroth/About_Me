@@ -1878,7 +1878,7 @@ export default {
       ".home__content, .about__img, .service__content, .contact__content",
       {
         origin: "left",
-      },
+      }
     );
 
     sr.reveal(".home__img, .about__content, .service__info, .contact__form", {
@@ -1889,7 +1889,7 @@ export default {
       ".skills__wrapper, .counter__wrapper, .portfolio__wrapper, .testimonial__wrapper, .blog__wrapper, .footer__content",
       {
         origin: "bottom",
-      },
+      }
     );
   },
 };
