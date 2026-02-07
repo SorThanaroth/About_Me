@@ -1,19 +1,29 @@
 import js from "@eslint/js";
+import vue from "eslint-plugin-vue";
+import vueParser from "vue-eslint-parser";
 import globals from "globals";
-import pluginReact from "eslint-plugin-react";
 
 export default [
-  js.configs.recommended, // This includes the "no-unused-vars" rule by default
-  pluginReact.configs.flat.recommended,
   {
-    files: ["**/*.{js,mjs,cjs,jsx}"],
+    ignores: ["dist/**", "node_modules/**", "public/**", ".vite/**"],
+  },
+
+  js.configs.recommended,
+
+  ...vue.configs["flat/recommended"],
+
+  {
+    files: ["**/*.vue"],
     languageOptions: {
+      parser: vueParser,
       globals: {
         ...globals.browser,
       },
     },
+  },
+
+  {
     rules: {
-      // Ensure it is set to "error"
       "no-unused-vars": "error",
     },
   },
